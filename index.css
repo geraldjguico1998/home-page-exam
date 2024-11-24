@@ -6,6 +6,186 @@ html {
   font-family: "Poppins", sans-serif !important;
 }
 
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined", sans-serif !important;
+}
+
+.cs-container{
+ padding-left:8%!important;
+ padding-right:8%!important;
+}
+
+
+
+
+
+
+
+/* Nav */
+.cs-ul li{
+  margin-left:2rem;
+  font-size:0.8rem!important;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.navbar-brand{
+  font-size:1.7rem!important;
+  font-weight:600;
+  letter-spacing: 2px;
+  color:#222220!important;
+}
+.cs-icon span{
+  margin-left:0.8rem;
+  font-size:1.4rem;
+}
+
+
+/* Hero */
+
+.cs-hero{
+  min-height:600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: flex-start!important; 
+  text-align: left!important;
+  padding:15%;
+}
+#hero h1{
+  font-size:1.8rem;
+  font-weight:500;
+  color:#222220;
+}
+#hero h1 span{
+  font-size:1.5rem;
+}
+#hero h5 a{
+  font-size: 0.95rem!important;
+  color:#222220!important;
+  text-decoration: none;
+  border-bottom:2px solid #a2a2a0;
+}
+
+.cs-hero {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: flex-start !important; 
+  text-align: left !important;
+  padding: 15%;
+}
+
+
+.slide-1 {
+  background-image: url('./images/banner-bg-1.webp');
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+
+
+.slide-2 {
+  background-image: url('./images/banner-bg-3.webp');
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+
+
+
+/* shop */
+
+#shop .cs-bread{
+  color: rgb(121, 121, 121); 
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight:500;
+  letter-spacing: 1px;
+}
+
+#shop h6 a {
+  display: flex; 
+  align-items: center;
+  font-size: 0.75rem !important; 
+  color: rgb(85, 85, 85);
+  text-transform: uppercase;
+  text-decoration: none; 
+  gap: 5px;
+}
+
+#shop h6 a span {
+  font-size: 1.2rem !important; 
+  margin-right:-1px;
+}
+
+#shop h6 a:hover {
+  color: rgb(85, 85, 85); 
+}
+
+.card-body .product-info {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.card-body .product-info h5 {
+  margin: 0; 
+  font-size: 1.1rem;
+  color: #555;
+  font-weight: 500!important;
+}
+
+.card-body .product-info p {
+  margin: 0; 
+  font-size: 0.9rem;
+  color: rgb(85, 85, 85);
+  font-weight: 400!important;
+  margin-bottom: 5px;
+}
+
+.card-body{
+  padding: 0px!important;
+}
+
+.load-more-btn {
+  margin-top:50px;
+  font-size: 0.8rem; 
+  text-transform: uppercase;
+  border: 1px solid #9b9b9b; 
+  color: #9b9b9b; 
+  background-color: transparent;
+  padding: 10px 30px!important; 
+  letter-spacing: 1px;
+  transition: all 0.3s ease; 
+  border-radius: 0!important;
+}
+
+.load-more-btn:hover {
+  color: #fff; 
+  background-color: #222220; 
+  border-color: #222220; 
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #f8f9fa; 
+  color: #6c757d; 
+  border-top: 1px solid #dee2e6;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+
+
+
+
 
 
 /* Tablet  */
@@ -17,3 +197,4 @@ html {
 @media (min-width: 992px) {
 
 }
+

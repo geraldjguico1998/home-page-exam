@@ -16,12 +16,167 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="index.css" />
-    <title>Gerald Guico</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+    <title>Atbp.</title>
   </head>
   <body>
 
+    <!-- Nav -->
+    <nav class="cs-container navbar navbar-expand-lg navbar-light mb-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Atbp.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="cs-ul navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shop">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <ul class="cs-icon navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><span class="material-symbols-outlined">
+                search
+                </span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><span class="material-symbols-outlined">
+                shopping_bag
+                </span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><span class="material-symbols-outlined">
+                person
+                </span></a>
+            </li>
 
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero" class="cs-container">
+      <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
     
+        <div class="carousel-inner">
+          <div class="carousel-item active slide-1">
+            <div class="cs-hero d-flex flex-column align-items-center text-align-start">
+              <h1>Living Room</h1>
+              <h1>Anim na Ilaw - <span>₱ 4,125.00</span></h1>
+              <h5><a href="#">Shop Now</a></h5>
+            </div>
+          </div>
+          <div class="carousel-item slide-2">
+            <div class="cs-hero d-flex flex-column align-items-center text-align-start">
+              <h1>Wooden Millks</h1>
+              <h1>Parang Tasa - <span>₱ 3,800.00</span></h1>
+              <h5><a href="#">Shop Now</a></h5>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    
+
+
+    <section id="shop" class="cs-container py-5 mb-5">
+      <p class="mb-5 cs-bread">Show All &nbsp;&nbsp; / &nbsp;&nbsp; Uncategorized &nbsp;&nbsp; / &nbsp;&nbsp; Lights &nbsp;&nbsp; / &nbsp;&nbsp; Furniture &nbsp;&nbsp; / &nbsp;&nbsp; Interior &nbsp;&nbsp; / &nbsp;&nbsp; Decoration &nbsp;&nbsp; / &nbsp;&nbsp; Outdoor </p>
+
+      <div >
+        <div class="row g-4 ">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card-body">
+              <img src="./images/Image-1-6-500x570.webp" class="card-img-top mb-3" alt="Product 1">
+              <div class="product-info">
+                <h5 class="card-title">Tubigan</h5>
+                <p class="card-text">₱ 1,000.00</p>
+              </div>
+              <h6 class="card-text">
+                <a href="#"><span class="material-symbols-outlined">shopping_bag</span> Add to cart</a>
+              </h6>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card-body">
+              <img src="./images/Image-2-11-500x570.webp" class="card-img-top mb-3" alt="Product 2">
+              <div class="product-info">
+                <h5 class="card-title">Tasa</h5>
+                <p class="card-text">₱ 250.00</p>
+              </div>
+              <h6 class="card-text">
+                <a href="#"><span class="material-symbols-outlined">shopping_bag</span> Add to cart</a>
+              </h6>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card-body">
+              <img src="./images/Image-3-4-500x570.webp" class="card-img-top mb-3" alt="Product 3">
+              <div class="product-info">
+                <h5 class="card-title">Orasan</h5>
+                <p class="card-text">₱ 200.00</p>
+              </div>
+              <h6 class="card-text">
+                <a href="#"><span class="material-symbols-outlined">shopping_bag</span> Add to cart</a>
+              </h6>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card-body">
+              <img src="./images/image-5-1-500x570.webp" class="card-img-top mb-3" alt="Product 4">
+              <div class="product-info">
+                <h5 class="card-title">Upuan</h5>
+                <p class="card-text">₱ 1,500.00</p>
+              </div>
+              <h6 class="card-text">
+                <a href="#"><span class="material-symbols-outlined">shopping_bag</span> Add to cart</a>
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="load-more" class="text-center mt-5">
+        <button class="btn btn-outline-dark px-5 py-2 load-more-btn">Load More</button>
+      </div>
+      
+    </section>
+
+    <footer class="footer py-4">
+      <div class="container text-center">
+        <p class="mb-1">© 2024 Atbp. All Rights Reserved.</p>
+
+      </div>
+    </footer>
+    
+    
+      
 
 
     <script
