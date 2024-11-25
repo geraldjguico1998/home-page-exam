@@ -83,7 +83,7 @@ html {
   background-image: url('./images/banner-bg-1.webp');
   background-size: cover;
   background-position: center;
-  min-height: 600px;
+  min-height: 70vh;
 }
 
 
@@ -91,7 +91,7 @@ html {
   background-image: url('./images/banner-bg-3.webp');
   background-size: cover;
   background-position: center;
-  min-height: 600px;
+  min-height: 70vh;
 }
 
 
@@ -190,7 +190,16 @@ html {
 
 /* Tablet  */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-1 {
 
+    min-height: 50vh;
+  }
+  
+  
+  .slide-2 {
+
+    min-height: 50vh;
+  }
 }
 
 /* Desktop and up */
